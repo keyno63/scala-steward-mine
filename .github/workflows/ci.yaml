@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: olafurpg/setup-scala@v13
         with:
-          java-version: "adopt@11"
+          java-version: "adopt@1.11"
       - uses: coursier/cache-action@v6
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
