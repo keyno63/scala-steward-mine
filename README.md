@@ -7,7 +7,7 @@
 - [scala-steward-org/scala-steward-action](https://github.com/coursier/cache-action) テンプレートを使わせてもらっています  
 - GitHub Action から実行してもらいます
   - [GitHub Actions](./.github/workflows/ci.yaml) の設定を参照
-- [repo.md](./repo.md) に監視対象のレポジトリーを記載します
+- [repos.md](./repos.md) に監視対象のレポジトリーを記載します
 - GitHub Actions を有効化します
 
 ## LICENSE
