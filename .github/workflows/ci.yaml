@@ -19,3 +19,4 @@ jobs:
           github-token: ${{ secrets.TOKEN }}
           author-name: "20952117+keyno63-scala-steward[bot]@users.noreply.github.com"
           author-email: "author-email"
+          repos-file: 'repos.md'
