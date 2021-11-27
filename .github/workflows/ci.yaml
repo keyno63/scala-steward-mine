@@ -22,7 +22,7 @@ jobs:
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
-          app_id: 154719
+          github-app-id: 154719
           github-app-key: ${{ secrets.APP_PRIVATE_KEY }}
           github-token: ${{ steps.generate-token.outputs.token }}
           author-name: "keyno63-scala-steward[bot]"

@@ -4,7 +4,7 @@
 
 ## Usage
 
-- [scala-steward-org/scala-steward-action](https://github.com/coursier/cache-action) テンプレートを使わせてもらっています  
+- [scala-steward-org/scala-steward-action](https://github.com/scala-steward-org/scala-steward-action) テンプレートを使わせてもらっています  
 - GitHub App を作成します（自分以外から commit してほしいため）
   - [GitHub App の作成](https://github.com/settings/apps) から App を作成します
   - private key の作成を忘れずに
