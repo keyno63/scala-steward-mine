@@ -13,19 +13,18 @@ jobs:
         with:
           java-version: "adopt@1.11"
       - uses: coursier/cache-action@v6
-#      - name: Generate token
-#        id: generate-token
-#        uses: tibdex/github-app-token@v1
-#        with:
-#          app_id: 154719
-#          private_key: ${{ secrets.SS_PRIVATE_KEY }}
+      - name: Generate token
+        id: generate-token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: 154719
+          private_key: ${{ secrets.SS_PRIVATE_KEY }}
       - name: Launch Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
-#          github-app-id: 154719
-#          github-app-key: ${{ secrets.SS_PRIVATE_KEY }}
-#          github-token: ${{ steps.generate-token.outputs.token }}
-          github-token: ${{ secrets.APP_TOKEN }}
+          github-app-id: 154719
+          github-app-key: ${{ secrets.SS_PRIVATE_KEY }}
+          github-token: ${{ steps.generate-token.outputs.token }}
           author-name: "keyno63-scala-steward[bot]"
           author-email: "95104908+keyno63-scala-steward[bot]@users.noreply.github.com"
           repos-file: 'repos.md'
