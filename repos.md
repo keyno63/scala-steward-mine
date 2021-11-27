@@ -1,2 +1,2 @@
 - keyno63/heroku-scala-app
-- keyno63/sbt-heroku
+- keyno63/sbt15-sample
