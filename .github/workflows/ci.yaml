@@ -25,6 +25,7 @@ jobs:
 #          github-app-id: 154719
 #          github-app-key: ${{ secrets.SS_PRIVATE_KEY }}
 #          github-token: ${{ steps.generate-token.outputs.token }}
+          github-token: ${{ secrets.APP_TOKEN }}
           author-name: "keyno63-scala-steward[bot]"
           author-email: "95104908+keyno63-scala-steward[bot]@users.noreply.github.com"
           repos-file: 'repos.md'
