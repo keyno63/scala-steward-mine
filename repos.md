@@ -1,1 +1,2 @@
 - keyno63/heroku-scala-app
+- keyno63/aws-lamdba-sandbox
