@@ -1,2 +1,3 @@
 - keyno63/heroku-scala-app
 - keyno63/sbt15-sample
+- keyno63/caliban-sample
